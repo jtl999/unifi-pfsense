@@ -81,7 +81,7 @@ echo "Installing required packages..."
 tar xv -C / -f /usr/local/share/pfSense/base.txz ./usr/bin/install
 #uncomment below for pfSense 2.2.x:
 #env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg install mongodb openjdk unzip pcre v8 snappy
-env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add ${FREEBSD_PACKAGE_URL}snappy-1.1.3.txz
+env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add ${FREEBSD_PACKAGE_URL}snappy-1.1.4.txz
 env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add ${FREEBSD_PACKAGE_URL}python2-2_3.txz
 env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add ${FREEBSD_PACKAGE_URL}v8-3.18.5_2.txz
 env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add ${FREEBSD_PACKAGE_URL}mongodb-2.6.12.txz
