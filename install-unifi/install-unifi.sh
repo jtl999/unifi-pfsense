@@ -13,7 +13,7 @@ UNIFI_SOFTWARE_URL="https://dl.ubnt.com/unifi/5.3.8/UniFi.unix.zip"
 RC_SCRIPT_URL="https://raw.githubusercontent.com/gozoinks/unifi-pfsense/master/rc.d/unifi.sh"
 
 #FreeBSD package source:
-FREEBSD_PACKAGE_URL="http://pkg.freebsd.org/freebsd:11:x86:${OS_ARCH}/latest/All/"
+FREEBSD_PACKAGE_URL="https://pkg.freebsd.org/freebsd:11:x86:${OS_ARCH}/latest/All/"
 
 # If pkg-ng is not yet installed, bootstrap it:
 if ! /usr/sbin/pkg -N 2> /dev/null; then
